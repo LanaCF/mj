@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background-color: #212121;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;  
+}
+
+li {
+    list-style: none;
+}
+
+.menu-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 0;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 170px;
+}
+
+.title-site {
+    font-size: 50px;
+    padding-left: 50px;
+    text-decoration: underline;
+    color: white;
+}
+
+.mj-img {
+    display: flex;
+    align-items: end;
+}
+
+.mj {
+    height: 150px;
+    transition: .5s;
+}
+
+.mj:hover {
+    transform: translate(-25px);
+    cursor: pointer;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    margin-right: 50px;
+    color: white;
+}
+
+.menu-items:last-child {
+    margin-right: 0;
+}
+
+.menu-items:hover {
+    background-color: white;
+    color: #212121;
+    cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 10px;
+    background: radial-gradient(ellipse farthest-corner at right bottom, 
+                    #FEDB37 0%, #FDB931 8%, #bb8e2d 30%, #aa6d37 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, 
+                    #eadd2f 0%, #f8d54b 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1110px;
+    background-color: white;
+    margin: 15px auto;
+}
+
+.title-collection {
+    font-size: 35px;
+    font-weight: 700;
+    padding: 25px 0 25px;
+}
+
+.card {
+    display: flex;
+    width: 700px;
+    padding: 10px 25px;
+    margin-top: 25px;
+    box-shadow: 1px 1px 15px #ECEAE4;
+}
+
+.card-photo {
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    width: 200px;
+    padding-right: 25px;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 21px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.card-price {
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.card-info span {
+    font-weight: 700;
+    padding-right: 15px;
+}
